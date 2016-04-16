@@ -4,25 +4,106 @@
     <meta charset="utf-8">
     <title>Bryan Castanos</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+      <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   </head>
   <body>
-    <nav>
-      <div class="nav-wrapper grey darken-4">
-        <a href="#" class="brand-logo">BC</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+    <div class="row">
+      <div class="col s12 splash-background">
+          <h1 class="center-align splash-intro">Hi, I'm Bryan.</h1>
+          <h4 class="center-align splash-tag">I'm a web developer based in LA.</h4>
+          <h3 class="center-align splash-links"><a href="#about"> About </a> / <a href="#portfolio">Portfolio</a> / <a href="#contact">Contact</a></h3>
       </div>
-    </nav>
-    <img style="width: 100%; height: 700px" src="http://i.imgur.com/gGWog4P.jpg" alt="" />
-    <a name="about"><h1>About Me</h1></a>
-    <p>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    </p>
+    </div>
 
+
+    <a name="about"><h1 class="link-header">About Me</h1></a>
+    <div class="row">
+      <div class="col s6 center-align responsive-img">
+          <img id="bryan" src="http://i.imgur.com/1JorVw0.jpg" alt="" />
+      </div>
+      <div class="col s5">
+          <p class="about">
+            As a developer with a philosophy degree, I am not only interested in the logical aspects of web development but also the creative opportunities that the field affords its practitioners. I’m recently finished a 12 week web development immersive at GA where I have been focusing on Node.js, AngularJS, MongoDB, Express.js, CSS, Javascript, and Ruby on Rails.
+          </p>
+          <p class="about">
+            Most recently, I was a business owner who created a startup poke bowl business operating at farmer’s markets across the Los Angeles area. While this experience taught me many things, one of the most important was a strong work ethic as I engaged in 12 hour days that often started at 4am or earlier!  Another thing the business taught me was process improvement. Neither my business partners nor myself had any experience with farmer’s markets, so each shift was an opportunity to learn what worked, and also to learn what changes needed to be made to improve the efficiency and appeal of our operation. I’m now focused on bringing that hard work and dedication to a growing start-up where I can utilize my dev tools to participate in building a better (and profitable) future.
+          </p><br>
+          <a href="https://github.com/bcastanos/"><i class="fa fa-github fa-3x"></i></a>
+          <a href="https://www.linkedin.com/in/bcastanos"><i class="fa fa-linkedin-square fa-3x"></i></a>
+          <a href="mailTo:bcastanos@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+
+        </div>
+    </div><br>
+    <section class="break">
+
+    </section>
+    <a name="portfolio"><h1 class="link-header">Portfolio</h1></a>
+    <div class="row">
+      <div class="col s3">
+        <div class="card">
+            <div class="card-image">
+              <a href="http://bcastanos.github.io/battleship/"><img src="http://i.imgur.com/IjzkdeP.jpg"></a>
+              <span class="card-title">Battleship</span>
+            </div>
+            <div class="card-content">
+              <p>A 2 player, turn based battleship game build with HTML, CSS, JavaScript, and jQuery.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col s3">
+        <div class="card">
+            <div class="card-image">
+              <a href="http://vinventory.herokuapp.com/"><img src="http://i.imgur.com/DqMHiIk.jpg"></a>
+              <span class="card-title">vInventory</span>
+            </div>
+            <div class="card-content">
+              <p>A Rails app that allows a user to inventory their wine collection and view the collections of other users.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col s3">
+        <div class="card">
+            <div class="card-image">
+              <a href="http://watsonscouch.herokuapp.com"><img src="http://i.imgur.com/8aWIiqe.jpg"></a>
+              <span class="card-title">Watson's Couch</span>
+            </div>
+            <div class="card-content">
+              <p>As a team, we used Node, MongoDB, and Express to analyze a twitter user's tweets using the IBM Watson API.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col s3">
+        <div class="card">
+            <div class="card-image">
+              <a href="http://thread-co.herokuapp.com/"><img src="http://i.imgur.com/HZR82de.jpg"></a>
+              <span class="card-title">Threads</span>
+            </div>
+            <div class="card-content">
+              <p>MEAN Stack app calling on the ShopStyle API to populate various men's clothing items.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <section class="break">
+
+    </section>
+    <a name="contact"><h1 class="link-header">Contact</h1></a>
+    <div class="row">
+      <div class="col s4 offset-s1 center-align">
+        <h3>Let's make something great. I'd love to hear from you.</h3><br><br>
+
+        <a href="https://github.com/bcastanos/"><i class="fa fa-github fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/bcastanos"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        <a href="mailTo:bcastanos@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+
+      </div>
+      <div class="col s5 offset-s1">
+        <img src="http://i.imgur.com/ZxgUgo6.jpg" alt="" />
+      </div>
+    </div>
 
 
 

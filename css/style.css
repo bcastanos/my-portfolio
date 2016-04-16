@@ -1,0 +1,53 @@
+
+a {
+  text-decoration: none;
+  color: white !important
+}
+
+i {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black !important;
+}
+
+.splash-background {
+  background-color: black;
+  width: 100%;
+  height: 750px;
+}
+
+.splash-intro{
+  color: white;
+  margin-top: 150px;
+}
+
+.splash-tag{
+  color: white;
+}
+
+.splash-links{
+  color: white;
+  padding-top: 300px
+}
+
+#bryan {
+  margin-top: 20px;
+}
+
+.break {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+
+.link-header {
+  text-align: center;
+  text-decoration: none;
+  color: black !important
+}
+
+.about {
+  text-indent: 30px;
+  text-decoration: none;
+  color: black !important;
+}
